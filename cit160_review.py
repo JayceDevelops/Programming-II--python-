@@ -96,7 +96,7 @@ def stats():
     sum, avg, count = 0, 0, 0
     minNum, maxNum = 0, 0
 
-    with open('./practice01/pp01_function03_data.txt', "r") as txtNumbers:
+    with open('./cit160reviewdata.txt', "r") as txtNumbers:
         for line in txtNumbers:
             number = float(line.strip("\n"))
 
@@ -148,4 +148,5 @@ def main():
             print("Goodbye!")
 
 if __name__ == '__main__':
+
     main()
